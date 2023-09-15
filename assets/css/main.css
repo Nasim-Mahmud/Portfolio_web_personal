@@ -1,3 +1,7 @@
+/* F4F9D8 - yellow
+daf7ed - blue (background)
+bae8e8 - blue(button) */
+
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 
@@ -325,7 +329,9 @@ form {
 .row.cards {
   padding: 0 0 18rem 0;
 }
-
+.row.cards p {
+  color: #fff;
+}
 .row > * {
   box-sizing: border-box;
 }
@@ -1780,6 +1786,12 @@ button.style1,
   /* border: 1px solid #bae8e8; */
   box-shadow: inset 0px 0px 2px 0px #bae8e8;
 }
+.button.style1.educ {
+  background: #f4f9d8 url("images/overlay.png");
+}
+input[type="submit"].style1.educ {
+  background: #f4f9d8;
+}
 
 input[type="button"].style1:hover,
 input[type="submit"].style1:hover,
@@ -1799,7 +1811,7 @@ input[type="submit"].style1:active,
 input[type="reset"].style1:active,
 button.style1:active,
 .button.style1:active {
-  background-color: #82e0aa;
+  background-color: #bae8e8;
 }
 
 input[type="button"].style2,
@@ -2693,6 +2705,12 @@ section.style2.customized {
   color: #fff;
   box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.5);
 }
+#footer input[type="reset"].educ {
+  color: #f4f9d8;
+}
+#footer input[type="reset"].educ:hover {
+  background: #f4f9d8 url("images/overlay.png") !important;
+}
 
 #footer input[type="button"]:hover,
 #footer input[type="reset"]:hover,
@@ -2708,6 +2726,9 @@ section.style2.customized {
   color: #bae8e8;
   background: #282b34;
   box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.65);
+}
+#footer input[type="submit"].educ:hover {
+  color: #f4f9d8;
 }
 
 #footer input[type="button"]:active,
@@ -2747,6 +2768,9 @@ section.style2.customized {
 
 #footer .feature-list {
   max-width: 100%;
+}
+#footer .feature-list.foot_para p {
+  color: #fff;
 }
 
 #footer .feature-list section {
