@@ -1,0 +1,2 @@
+1. Need to twick the background of cards on hover in homepage
+2. 
