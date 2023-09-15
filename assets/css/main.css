@@ -2308,15 +2308,15 @@ section.style2.customized {
 }
 
 .wrapper.style2.nsu {
-  background: #a5acaf;
+  /* background: #a5acaf; */
   transition: 1s;
 }
 .wrapper.style2.rc {
-  background: #d2e9e3;
+  /* background: #d2e9e3; */
   transition: 1s;
 }
 .wrapper.style2.rglhs {
-  background: #d2e9e3;
+  /* background: #d2e9e3; */
   transition: 1s;
 }
 /* .wrapper.style2:hover {
@@ -2329,15 +2329,15 @@ section.style2.customized {
   color: #282b34;
 }
 .wrapper.style2.nsu .title {
-  background: #a5acaf !important;
+  /* background: #a5acaf !important; */
   color: #000 !important;
 }
 .wrapper.style2.rc .title {
-  background: #d2e9e3 !important;
+  /* background: #d2e9e3 !important; */
   color: #000 !important;
 }
 .wrapper.style2.rglhs .title {
-  background: #d2e9e3 !important;
+  /* background: #d2e9e3 !important; */
   color: #000 !important;
 }
 
@@ -2403,6 +2403,9 @@ section.style2.customized {
 }
 .wrapper.header2 {
   background: #daf7ed !important;
+}
+.wrapper.header3 {
+  background: #f4f9d8 !important;
 }
 
 /* Logo */
@@ -2526,7 +2529,8 @@ section.style2.customized {
 
 .dropotron {
   background: #222835 url("images/overlay.png");
-  background-color: #e3f6f5;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
   padding: 1.25em 1em 1.25em 1em;
   border-radius: 0.35em;
   box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
@@ -2573,8 +2577,7 @@ section.style2.customized {
 
 .dropotron li:hover > a,
 .dropotron li:hover > span {
-  color: #bae8e8;
-  border-bottom: solid 0.5px #bae8e8;
+  border-bottom: solid 0.5px #272343;
 }
 
 /* Intro */
