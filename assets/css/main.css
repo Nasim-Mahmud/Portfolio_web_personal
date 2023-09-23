@@ -1570,6 +1570,9 @@ header.style1 h2 {
   letter-spacing: 0.075em;
   line-height: 1.5em;
 }
+header.style1 span {
+  color: #bae8e8;
+}
 header.style1.details_h2 h2 {
   color: #282b34;
 }
@@ -1792,6 +1795,14 @@ button.style1,
 .button.style1.educ {
   background: #f4f9d8;
   box-shadow: inset 0px 0px 2px 0px #f4f9d8;
+}
+button.style1.nsuResumebutton {
+  background: #f4f9d8;
+  box-shadow: inset 0px 0px 2px 0px #f4f9d8;
+}
+button.style1.nsuResumebutton a {
+  color: #282b34;
+  text-decoration: none;
 }
 input[type="submit"].style1.educ {
   background: #f4f9d8;

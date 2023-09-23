@@ -1,9 +1,10 @@
-body {
+/* body {
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 #myImg01,
-#myImg02 {
+#myImg02,
+#myImg03 {
   border-radius: 5px;
   cursor: pointer;
   /* filter: grayscale(85%); */
@@ -12,7 +13,8 @@ body {
 }
 
 #myImg01:hover,
-#myImg02:hover {
+#myImg02:hover,
+#myImg03:hover {
   /* opacity: 0.7; */
   /* filter: grayscale(0%); */
   filter: sepia(0%);
@@ -20,7 +22,8 @@ body {
 
 /* The Modal (background) */
 .modal01,
-.modal02 {
+.modal02,
+.modal03 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -36,7 +39,8 @@ body {
 
 /* Modal Content (image) */
 .modal01-content,
-.modal02-content {
+.modal02-content,
+.modal03-content {
   margin: auto;
   display: block;
   width: 80%;
@@ -45,7 +49,8 @@ body {
 
 /* Caption of Modal Image */
 #caption01,
-#caption02 {
+#caption02,
+#caption03 {
   margin: auto;
   display: block;
   width: 80%;
@@ -59,8 +64,10 @@ body {
 /* Add Animation */
 .modal01-content,
 .modal02-content,
+.modal03-content,
 #caption01,
-#caption02 {
+#caption02,
+#caption03 {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -87,7 +94,8 @@ body {
 
 /* The Close Button */
 .close01,
-.close02 {
+.close02,
+.close03 {
   position: absolute;
   top: 15px;
   right: 35px;
@@ -100,7 +108,9 @@ body {
 .close01:hover,
 .close01:focus,
 .close02:hover,
-.close02:focus {
+.close02:focus,
+.close03:hover,
+.close03:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
@@ -109,7 +119,8 @@ body {
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
   .modal01-content,
-  .modal02-content {
+  .modal02-content,
+  .modal03-content {
     width: 100%;
   }
 }
