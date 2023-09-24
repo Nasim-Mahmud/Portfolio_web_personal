@@ -1810,12 +1810,14 @@ button.style1,
   box-shadow: inset 0px 0px 2px 0px #f4f9d8;
 }
 button.style1.nsuResumebutton,
-button.style1.rcResumebutton {
+button.style1.rcResumebutton,
+button.style1.rglhsResumebutton {
   background: #f4f9d8;
   box-shadow: inset 0px 0px 2px 0px #f4f9d8;
 }
 button.style1.nsuResumebutton a,
-button.style1.rcResumebutton a {
+button.style1.rcResumebutton a,
+button.style1.rglhsResumebutton a {
   color: #282b34;
   text-decoration: none;
 }
@@ -2256,7 +2258,8 @@ section.style2.customized {
   transition: 0.5s;
 } */
 .box.post .nsudetails,
-.box.post .rcdetails {
+.box.post .rcdetails,
+.box.post .rglhsdetails {
   color: #000;
 }
 
