@@ -2199,6 +2199,69 @@ section.style2.customized {
   font-weight: 600;
   letter-spacing: 0.05em;
 }
+button.collapsible {
+  background-color: #f3f3f3;
+  color: #000;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 5px;
+  letter-spacing: 0.1rem;
+}
+button.active,
+button.collapsible:hover {
+  background-color: #282b34;
+  color: #fff;
+}
+
+button.collapsible:after {
+  content: "\002B";
+  color: #000;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+button.collapsible:hover::after {
+  color: #fff;
+}
+
+button.active:after {
+  content: "\2212";
+  color: #fff;
+}
+
+.collapsibleContent {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+li.projectList {
+  padding: 0 0 2rem 0;
+}
+.box h2.projectHeading {
+  margin: 0;
+}
+.box h3.projectSubHeading {
+  padding-left: 1rem;
+  margin: 0;
+}
+p.projectTime {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+p.projectDesc {
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+p.projectDesc span {
+  font-weight: 600;
+}
 
 .box.post-excerpt .image.left {
   position: relative;
