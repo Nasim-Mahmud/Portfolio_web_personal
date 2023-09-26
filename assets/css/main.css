@@ -2201,7 +2201,7 @@ section.style2.customized {
 }
 button.collapsible {
   background-color: #f3f3f3;
-  color: #000;
+  color: #282b34;
   cursor: pointer;
   width: 100%;
   border: none;
@@ -2209,7 +2209,7 @@ button.collapsible {
   outline: none;
   font-size: 15px;
   margin-bottom: 5px;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
 }
 button.active,
 button.collapsible:hover {
@@ -2219,7 +2219,7 @@ button.collapsible:hover {
 
 button.collapsible:after {
   content: "\002B";
-  color: #000;
+  color: #282b34;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -2238,6 +2238,7 @@ button.active:after {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  margin-bottom: 5px;
   background-color: #f1f1f1;
 }
 
@@ -2249,7 +2250,7 @@ li.projectList {
 }
 .box h3.projectSubHeading {
   padding-left: 1rem;
-  margin: 0;
+  /* margin-top: 1rem; */
 }
 p.projectTime {
   padding-left: 1rem;
