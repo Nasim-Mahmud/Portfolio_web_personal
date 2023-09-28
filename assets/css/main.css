@@ -1574,7 +1574,8 @@ header.style1 span {
   color: #bae8e8;
 }
 header.style1.details_h2 h2 {
-  color: #282b34;
+  /* color: #282b34; */
+  color: #fff;
 }
 
 header.style1 p {
@@ -1830,9 +1831,15 @@ input[type="submit"].style1:hover,
 input[type="reset"].style1:hover,
 button.style1:hover,
 .button.style1:hover {
+  /* background: #fff url("images/overlay.png"); */
   background: #fff url("images/overlay.png");
   box-shadow: inset 0px 0px 2px 0px #282b34;
   /* border: 1px solid #282b34; */
+}
+.button.style1.custom:hover {
+  background: transparent url("images/overlay.png");
+  box-shadow: inset 0px 0px 2px 0px #fff;
+  color: #fff;
 }
 .button.style1.endorse:hover {
   background: #f3f3f3 url("images/overlay.png") !important;
@@ -1852,8 +1859,10 @@ input[type="reset"].style2,
 button.style2,
 .button.style2 {
   background: none;
-  color: #606167;
-  box-shadow: inset 0px 0px 2px 0px #282b34;
+  /* color: #606167; */
+  color: #fff;
+  /* box-shadow: inset 0px 0px 2px 0px #282b34; */
+  box-shadow: inset 0px 0px 2px 0px #fff;
   /* border: 1px solid #606167; */
 }
 
@@ -2035,7 +2044,8 @@ section.style2.customized {
   bottom: -14rem;
 }
 .vertical {
-  border-left: 2px solid #282b34;
+  /* border-left: 2px solid #282b34; */
+  border-left: 2px solid #fff;
   height: 55%;
   position: absolute;
   left: 50%;
@@ -2450,6 +2460,12 @@ p.projectDesc span {
   transition: 1s;
   background: url(images/overlay.png);
 }
+.wrapper.style2.customized {
+  /* background: #282b34; */
+  transition: 1s;
+  background: url(/images/bg2.jpg) fixed top left no-repeat;
+  background-size: cover;
+}
 
 .wrapper.style2.nsu {
   /* background: #a5acaf; */
@@ -2472,6 +2488,12 @@ p.projectDesc span {
   background: #fff url(images/overlay.png);
   color: #282b34;
 }
+.wrapper.style2 .title.custom {
+  background: #282b34 url(/images/bg2.jpg) fixed top left no-repeat;
+  background-size: auto;
+  color: #fff;
+}
+
 .wrapper.style2.nsu .title {
   /* background: #a5acaf !important; */
   color: #000 !important;
