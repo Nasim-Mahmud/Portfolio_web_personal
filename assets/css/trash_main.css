@@ -1762,7 +1762,7 @@ button,
   -ms-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   display: inline-block;
-  background: transparent;
+  background: none;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
@@ -1784,7 +1784,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
 .button:hover {
-  background-color: transparent;
+  /* background-color: #82e0aa; */
 }
 
 input[type="button"].large,
@@ -1836,10 +1836,11 @@ button.style1:hover,
   box-shadow: inset 0px 0px 2px 0px #282b34;
   /* border: 1px solid #282b34; */
 }
-.button.style1.customButton01:hover {
+
+.button.style1.custom:hover {
   background: transparent;
+  backdrop-filter: blur(10px);
   box-shadow: inset 0px 0px 2px 0px #fff;
-  /* backdrop-filter: blur(10px); */
   color: #fff;
 }
 .button.style1.endorse:hover {
@@ -1860,15 +1861,11 @@ input[type="reset"].style2,
 button.style2,
 .button.style2 {
   background: none;
-  /* color: #606167; */
   color: #fff;
   /* box-shadow: inset 0px 0px 2px 0px #282b34; */
   box-shadow: inset 0px 0px 2px 0px #fff;
   /* border: 1px solid #606167; */
-}
-.button.style2.customButton02 {
-  backdrop-filter: blur(10px);
-  box-shadow: inset 0px 0px 2px 0px #fff;
+  backdrop-filter: blur(20px);
 }
 
 input[type="button"].style2:hover,
@@ -2027,11 +2024,11 @@ ul.actions.special {
 .feature-list section.card-1 {
   border: 1px solid transparent;
   border-radius: 5px;
-  background: transparent;
-  backdrop-filter: blur(15px);
+  /* background: #282b34; */
   padding-top: 35px !important;
   padding: 0 25px 30px 30px;
   transition: 1s ease-in-out;
+  backdrop-filter: blur(30px);
 }
 section.style2.customized {
   /* background: #000; */
@@ -2051,8 +2048,7 @@ section.style2.customized {
 }
 .vertical {
   /* border-left: 2px solid #282b34; */
-  border-left: 2px solid transparent;
-  backdrop-filter: blur(100px);
+  border-left: 2px solid #fff;
   height: 55%;
   position: absolute;
   left: 50%;
@@ -2094,7 +2090,7 @@ section.style2.customized {
 }
 .feature-list section.card-1:hover {
   /* box-shadow: 4px 4px grey; */
-  transition: 0.5s ease;
+  transition: 1s ease;
 }
 .feature-list section.card-1:hover h3:before {
   background: #bae8e8;
@@ -2233,26 +2229,8 @@ button.collapsible {
   margin-bottom: 5px;
   letter-spacing: 0.05rem;
 }
-button.collapsible.pubCollapsible {
-  background: #fff;
-}
-button.collapsible.pubCollapsible span {
-  font-size: 12px;
-  font-weight: 400;
-  border: 1px solid #000;
-  border-radius: 20px;
-  padding: 4px;
-  background: #fff;
-}
-
-button.collapsible.pubCollapsible span {
-  border: 1px solid #fff;
-}
 button.active,
-button.collapsible:hover,
-button.collapsible.pubCollapsible.active,
-button.collapsible.pubCollapsible span,
-button.collapsible.pubCollapsible:hover {
+button.collapsible:hover {
   background: #282b34;
   /* background-position: left bottom; */
   color: #fff;
@@ -2281,9 +2259,6 @@ button.active:after {
   transition: max-height 0.2s ease-out;
   margin-bottom: 5px;
   background-color: #f1f1f1;
-}
-.collapsibleContent.pubCollapsibleContent {
-  background-color: #fff;
 }
 
 li.projectList {
