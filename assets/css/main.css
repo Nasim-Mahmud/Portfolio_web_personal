@@ -2489,6 +2489,58 @@ p.projectDesc span {
   transition: 1s;
   background: url(images/overlay.png);
 }
+
+.wrapper.style2.resumePage {
+}
+.icon_resumePage {
+  padding-top: 20px;
+}
+.icon_resumePage .flex_container {
+  display: flex;
+}
+.flex_title {
+}
+.flex_title .resume_title {
+  padding: 25px 0px 0px 27px;
+  font-size: 30px;
+}
+
+.icon_resumePage img {
+  width: 70px;
+  /* border: 2px solid #000;
+  border-radius: 5px; */
+  padding: 3px;
+  padding-top: 10px;
+}
+/* .vertical_resumePageEdu {
+  border-left: 2px solid #000;
+  height: 55%;
+  position: absolute;
+  left: 13%;
+} */
+.resumeDesc {
+  padding: 10px 0 20px 100px;
+}
+.resumeDesc .resume_head01 {
+  font-size: 22px;
+  padding: 0px 0px 5px 0px;
+  margin: 0px;
+}
+.resumeDesc .resume_head02 {
+  margin: 0px;
+  font-size: 18px;
+}
+.resumeDesc .resume_head03 {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.resumeDesc .resume_list li {
+  margin: 0px;
+  color: #272343;
+  font-size: 18px;
+  padding: 5px 0 0 0;
+}
 .wrapper.style2.customized {
   /* background: #282b34; */
   transition: 1s;
