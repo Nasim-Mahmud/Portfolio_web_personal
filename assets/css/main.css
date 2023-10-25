@@ -1,5 +1,7 @@
-/* F4F9D8 - yellow
+/* e3e1e1 - yellow
+e8f5a2 - new yellow
 daf7ed - blue (background)
+e3e1e1 - Secondary background
 bae8e8 - blue(button) */
 
 @import url("fontawesome-all.min.css");
@@ -1807,14 +1809,14 @@ button.style1,
   box-shadow: inset 0px 0px 2px 0px #bae8e8;
 }
 .button.style1.educ {
-  background: #f4f9d8;
-  box-shadow: inset 0px 0px 2px 0px #f4f9d8;
+  background: #e3e1e1;
+  box-shadow: inset 0px 0px 2px 0px #e3e1e1;
 }
 button.style1.nsuResumebutton,
 button.style1.rcResumebutton,
 button.style1.rglhsResumebutton {
-  background: #f4f9d8;
-  box-shadow: inset 0px 0px 2px 0px #f4f9d8;
+  background: #e3e1e1;
+  box-shadow: inset 0px 0px 2px 0px #e3e1e1;
 }
 button.style1.nsuResumebutton a,
 button.style1.rcResumebutton a,
@@ -1823,7 +1825,7 @@ button.style1.rglhsResumebutton a {
   text-decoration: none;
 }
 input[type="submit"].style1.educ {
-  background: #f4f9d8;
+  background: #e3e1e1;
 }
 
 input[type="button"].style1:hover,
@@ -2360,8 +2362,8 @@ p.projectDesc span {
 .box.post-excerpt.nsuTitle,
 .box.post-excerpt.rcTitle,
 .box.post-excerpt.rglhsTitle {
-  background: #f4f9d8;
-  border: 3px solid #f4f9d8;
+  background: #e3e1e1;
+  border: 3px solid #e3e1e1;
   border-radius: 9px;
   padding: 15px;
   transition: 1s ease;
@@ -2563,7 +2565,7 @@ p.projectDesc span {
 .wrapper.style2.customized {
   /* background: #282b34; */
   transition: 1s;
-  background: url(/images/bg2.jpg) fixed top left no-repeat;
+  background: url(/images/spider.jpg) fixed top left no-repeat;
   background-size: cover;
 }
 
@@ -2589,8 +2591,8 @@ p.projectDesc span {
   color: #282b34;
 }
 .wrapper.style2 .title.custom {
-  background: #282b34 url(/images/bg2.jpg) fixed top left no-repeat;
-  background-size: auto;
+  background: #282b34 url(/images/spider.jpg) fixed top left no-repeat;
+  background-size: cover;
   color: #fff;
 }
 
@@ -2671,7 +2673,7 @@ p.projectDesc span {
   background: #daf7ed !important;
 }
 .wrapper.header3 {
-  background: #f4f9d8 !important;
+  background: #e3e1e1 !important;
 }
 
 /* Logo */
@@ -2960,10 +2962,10 @@ p.projectDesc span {
   box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.5);
 }
 #footer input[type="reset"].educ {
-  color: #f4f9d8;
+  color: #e3e1e1;
 }
 #footer input[type="reset"].educ:hover {
-  background: #f4f9d8 url("images/overlay.png") !important;
+  background: #e3e1e1 url("images/overlay.png") !important;
 }
 
 #footer input[type="button"]:hover,
@@ -2982,7 +2984,7 @@ p.projectDesc span {
   box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.65);
 }
 #footer input[type="submit"].educ:hover {
-  color: #f4f9d8;
+  color: #e3e1e1;
 }
 
 #footer input[type="button"]:active,
