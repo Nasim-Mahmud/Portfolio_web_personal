@@ -1854,6 +1854,25 @@ button.style1:active,
   background-color: #bae8e8;
 }
 
+.resumePageButton {
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+.resumePageButton .download {
+  /* border: 1px solid #bae8e8; */
+
+  background: #bae8e8;
+}
+.resumePageButton .download a {
+  color: #282b34;
+  text-decoration: none;
+}
+.resumePageButton .download:hover {
+  background: transparent;
+  box-shadow: inset 0px 0px 2px 0px #282b34;
+  color: #282b34;
+}
+
 input[type="button"].style2,
 input[type="submit"].style2,
 input[type="reset"].style2,
@@ -2501,7 +2520,7 @@ p.projectDesc span {
 .flex_title {
 }
 .flex_title .resume_title {
-  padding: 25px 0px 0px 27px;
+  padding: 25px 0px 0px 30px;
   font-size: 30px;
 }
 
