@@ -335,7 +335,8 @@ form {
   padding: 0 0 18rem 0;
 }
 .row.cards p {
-  color: #fff;
+  /* color: #fff; */
+  color: #282b34;
 }
 .row > * {
   box-sizing: border-box;
@@ -1563,7 +1564,7 @@ article:last-child {
 
 header.style1 {
   text-align: center;
-  padding: 3em 0 3em 0;
+  padding: 0 0 3em 0;
 }
 
 header.style1 h2 {
@@ -1576,8 +1577,8 @@ header.style1 span {
   color: #bae8e8;
 }
 header.style1.details_h2 h2 {
-  /* color: #282b34; */
-  color: #fff;
+  color: #282b34;
+  /* color: #fff; */
 }
 
 header.style1 p {
@@ -1838,11 +1839,13 @@ button.style1:hover,
   box-shadow: inset 0px 0px 2px 0px #282b34;
   /* border: 1px solid #282b34; */
 }
+
 .button.style1.customButton01:hover {
   background: transparent;
+  backdrop-filter: blur(10px);
   box-shadow: inset 0px 0px 2px 0px #fff;
   /* backdrop-filter: blur(10px); */
-  color: #fff;
+  /* color: #fff; */
 }
 .button.style1.endorse:hover {
   background: #f3f3f3 url("images/overlay.png") !important;
@@ -1882,7 +1885,7 @@ button.style2,
 .button.style2 {
   background: none;
   /* color: #606167; */
-  color: #fff;
+  color: #282b34;
   /* box-shadow: inset 0px 0px 2px 0px #282b34; */
   box-shadow: inset 0px 0px 2px 0px #fff;
   /* border: 1px solid #606167; */
@@ -2091,7 +2094,8 @@ section.style2.customized {
   /* position: relative; */
   /* right: 3rem; */
   font-family: "source sans pro";
-  color: #fff;
+  /* color: #fff; */
+  color: #282b34;
   /* margin: -0.35em 0 0.75em 0; */
   font-size: 1.15em;
   letter-spacing: 0.05em;
@@ -2565,7 +2569,7 @@ p.projectDesc span {
 .wrapper.style2.customized {
   /* background: #282b34; */
   transition: 1s;
-  background: url(/images/spider.jpg) fixed top left no-repeat;
+  background: url(/images/abs1.jpg) fixed top left no-repeat;
   background-size: cover;
 }
 
@@ -2591,9 +2595,10 @@ p.projectDesc span {
   color: #282b34;
 }
 .wrapper.style2 .title.custom {
-  background: #282b34 url(/images/spider.jpg) fixed top left no-repeat;
+  background: #282b34 url(/images/abs1.jpg) fixed top left no-repeat;
   background-size: cover;
-  color: #fff;
+  /* color: #fff; */
+  color: #282b34;
 }
 
 .wrapper.style2.nsu .title {
@@ -2889,7 +2894,7 @@ p.projectDesc span {
 /* Features */
 
 #features header.style1 {
-  padding-bottom: 5em;
+  /* padding-bottom: 3em; */
 }
 
 #features ul.actions {
